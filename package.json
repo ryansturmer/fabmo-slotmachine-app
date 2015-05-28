@@ -1,10 +1,10 @@
 {
-	"name":"Example App",
+	"name":"Slot Machine",
 	"main":"./index.html",
 	"icon":"icon.png",
-	"icon_color":"navy",
+	"icon_color":"red",
 	"version":"0.0.1",
 	"author":"Ryan Sturmer",
 	"website":"http://www.shopbottools.com",
-	"description":"Demo app from the Fabmo developer kit"
+	"description":"Cuts simple slots"
 }
