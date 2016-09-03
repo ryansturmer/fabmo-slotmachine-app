@@ -128,7 +128,10 @@
               </form>
             </div>
           </div> <!-- row -->
+              <script src="js/fabmo.js"></script>
+
           <script type="text/javascript">
+                  var fabmo = new FabMoDashboard();
                    // Validate the input of the provided form (just checks for a valid number, no range check)
                    // Mark the input as invalid if it contains bad data
                    // Return the value if it's valid, null otherwise
@@ -192,7 +195,12 @@
                       var dogbone = $("#job-select-dogbone").val() === "Dogbone Corners";
 
                       code = makeSlot(cx,cy,bit_diameter, dx,dy,zpullup,depth,passdepth,feedrate, dogbone);
-                      fabmoDashboard.submitJob(code, {filename : 'slot.nc'})
+                      fabmo.submitJob({
+                        file:code,
+                        filename : 'slot.nc',
+                        name : 'Slot',
+                        description : 'Slot from slot machine.'
+                      });
                       evt.preventDefault();
                   });
           </script>
