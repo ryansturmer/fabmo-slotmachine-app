@@ -156,7 +156,8 @@
                                   'G90',
                                   'G20',
                                   'G0 Z' + zpullup,
-                                  'M4'];
+                                  'M4',
+                                  'G4 P3'];
                     slot_path = slotPath(cx,cy,bit_diameter,dx,dy,dogbone);
                     start = slot_path[0]
                     gcodes.push('G0 X' + f(start[0]) + ' Y' + f(start[1]));
