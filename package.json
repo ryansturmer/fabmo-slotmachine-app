@@ -1,10 +1,16 @@
 {
-	"name":"Slot Machine",
+	"name":"SlotMachine",
 	"main":"./index.html",
+	"repository":"https://github.com/ryansturmer/fabmo-slotmachine-app",
+	"license":"MIT",
 	"icon":"icon.png",
-	"icon_color":"red",
-	"version":"0.0.1",
+	"icon_color":"#371c00",
+	"version":"0.0.2",
 	"author":"Ryan Sturmer",
 	"website":"http://www.shopbottools.com",
-	"description":"Cuts simple slots"
+	"description":"Cuts simple slots",
+    "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-zip": "^0.17.1"
+  }
 }

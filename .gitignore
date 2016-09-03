@@ -1,3 +1,7 @@
 *.fma
 *.zip
-
+node_modules
+*~
+*.tmp
+*.bak
+build
