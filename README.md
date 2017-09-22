@@ -1,5 +1,8 @@
 # Fabmo Example App
 
+## Demo
+You can demo the app online here: http://github.io/ryansturmer/fabmo-slotmachine-app/
+
 ## About
 This project is the authoritative example app for the Fabmo platform.  It provides example code for performing the tasks that are most typical for an app running in the Fabmo dashboard environment, as well as some guidance on app visual style and some limited documentation.
 
